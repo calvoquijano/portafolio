@@ -1,0 +1,314 @@
+@import "../css/bootstrap/bootstrap-reboot.min.css";
+@import "../css/bootstrap/bootstrap.min.css";
+@import "../css/bootstrap/bootstrap-grid.min.css";
+@import "../css/bootstrap/bootstrap-utilities.min.css";
+@import "../css/fonts/fuentes.css";
+* {
+  font-family: "textos", monospace, sans-serif;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  background: url("../images/backgrounds/bg_craft02.jpg") repeat fixed;
+  font-size: 1.5rem;
+}
+
+b, h1, h2, h3, h4, h5, h6, button {
+  font-family: "textosBold", monospace, sans-serif;
+}
+
+h1 {
+  font-size: 6vh;
+}
+
+h2 {
+  font-size: 5vh;
+}
+
+h3 {
+  font-size: 4vh;
+}
+
+h4 {
+  font-size: 3vh;
+}
+
+h5 {
+  font-size: 2.5vh;
+}
+
+h6 {
+  font-size: 4rem;
+}
+
+.menos-margin {
+  margin-bottom: -15px;
+}
+
+.mas-margin {
+  margin-top: -15px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: url("../images/backgrounds/bg_craft05.jpg") repeat;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: url("../images/backgrounds/bg_craft04.jpg") repeat;
+}
+
+a {
+  color: #271202;
+  text-decoration: none !important;
+}
+
+.botones__calvos-amarillos {
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: default !important;
+  font-size: 1.5rem;
+  background-color: #F0A51B;
+  border: 2px solid #fbfbfb;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.botones__calvos-amarillos:hover {
+  background-color: #F0A51B;
+  border: 2px solid #fbfbfb;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.botones__calvos-linea-amarilla {
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: default !important;
+  font-size: 1.5rem;
+  color: #F0A51B;
+  background: url("../images/backgrounds/bg_craft02.jpg") repeat;
+  border: 2px solid #F0A51B;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.botones__calvos-linea-amarilla:hover {
+  color: #F0A51B;
+  background: url("../images/backgrounds/bg_craft02.jpg") repeat;
+  border: 2px solid #F0A51B;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.botones__calvos-linea-zul {
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: default !important;
+  font-size: 1.5rem;
+  color: #265764;
+  background: url("../images/backgrounds/bg_craft03.jpg") repeat;
+  border: 2px solid #265764;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.botones__calvos-linea-zul:hover {
+  color: #265764;
+  background: url("../images/backgrounds/bg_craft03.jpg") repeat;
+  border: 2px solid #265764;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+main .progress {
+  margin-bottom: 20px;
+  height: 30px;
+  background: url("../images/backgrounds/bg_verde.jpg") repeat;
+  box-shadow: 1px 5px 3px -2px rgba(0, 0, 0, 0.2);
+}
+main .progress .progress-bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #265764;
+  font-size: 1.5rem;
+  box-shadow: 1px 5px 3px -2px rgba(0, 0, 0, 0.2);
+}
+main .textos_destacados_izq {
+  text-align: right;
+}
+main .textos_destacados_izq h6 {
+  font-size: 2rem;
+}
+main .textos_destacados_der {
+  text-align: left;
+}
+main .home__tarjetas {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  box-shadow: inset 4px 0px 3px -2px rgba(0, 0, 0, 0.2), inset -4px 0px 3px -2px rgba(0, 0, 0, 0.2);
+}
+main .home__tarjetas .card {
+  min-width: 280px;
+  background: url("../images/backgrounds/bg_craft03.jpg") repeat;
+  border: none;
+  box-shadow: 1px 5px 3px -2px rgba(0, 0, 0, 0.2);
+}
+main .home__tarjetas .card div h4 {
+  margin-bottom: 0;
+}
+main .home__tarjetas .card div .card__header-images img:last-child {
+  margin-left: -25px;
+}
+main .home__tarjetas a {
+  background: url("../images/backgrounds/bg_craft01.jpg") repeat;
+  color: #265764;
+  font-family: "textosBold", monospace, sans-serif;
+  border-radius: 0 0 0.375rem 0.375rem;
+  box-shadow: inset 1px 5px 3px -2px rgba(0, 0, 0, 0.2);
+}
+main .home__tarjetas a::after {
+  content: url("../images/icos/arrow-blue.svg");
+  margin-left: 10px;
+}
+main section.secciones-imagen-black a, main section.secciones-imagen-craft a, main section.sin-imagen a {
+  color: #F0A51B;
+}
+main section.secciones-imagen-black a::after, main section.secciones-imagen-craft a::after, main section.sin-imagen a::after {
+  content: url("../images/icos/arrow-yellow.svg");
+  margin-left: 10px;
+}
+main section.secciones-imagen-black .home__tarjetas a, main section.secciones-imagen-craft .home__tarjetas a, main section.sin-imagen .home__tarjetas a {
+  color: #265764;
+}
+main section.secciones-imagen-black .home__tarjetas a::after, main section.secciones-imagen-craft .home__tarjetas a::after, main section.sin-imagen .home__tarjetas a::after {
+  content: url("../images/icos/arrow-blue.svg");
+  margin-left: 10px;
+}
+main section.secciones-imagen-black h2, main section.secciones-imagen-black h6, main section.secciones-imagen-craft h2, main section.secciones-imagen-craft h6, main section.sin-imagen h2, main section.sin-imagen h6 {
+  font-family: "textos", monospace, sans-serif;
+}
+main section.secciones-imagen-black h2, main section.secciones-imagen-craft h2, main section.sin-imagen h2 {
+  font-size: 6vh;
+}
+main section.secciones-imagen-black h6, main section.secciones-imagen-craft h6, main section.sin-imagen h6 {
+  font-size: 5vh;
+}
+main section.secciones-imagen-black {
+  background: url("../images/backgrounds/bg_negro.jpg") repeat;
+  box-shadow: 3px 5px 6px -1px rgba(0, 0, 0, 0.2);
+  color: #fbfbfb;
+}
+main section.secciones-imagen-craft {
+  background: url("../images/backgrounds/bg_craft06.jpg") repeat;
+  box-shadow: 3px 5px 6px -1px rgba(0, 0, 0, 0.2);
+}
+main .cinta {
+  background: url("../images/backgrounds/patron-cinta.jpg") repeat;
+  padding: 15px;
+  z-index: 100;
+  box-shadow: 1px 5px 3px -2px rgba(0, 0, 0, 0.2);
+}
+main .img-provicional-desktop {
+  display: block;
+}
+main .img-provicional-mobile {
+  display: none;
+}
+
+header {
+  background: url("../images/backgrounds/bg_craft05.jpg") repeat;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+header .logo__mobile {
+  display: none;
+}
+
+.cinta_roja {
+  background: url("../images/backgrounds/bg_rojo_brillante.jpg") repeat;
+  box-shadow: inset 0px 2px 5px 2px rgba(0, 0, 0, 0.2), 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+  color: #fbfbfb;
+}
+.cinta_roja h2 {
+  font-size: 1.5rem;
+  font-family: "textos", monospace, sans-serif;
+}
+
+.menu__desktop li.nav-item a, .menu__mobile li.nav-item a {
+  color: #271202;
+  font-family: "textosBold", monospace, sans-serif;
+  text-decoration: underline !important;
+}
+
+.menu__mobile {
+  display: none;
+}
+.menu__mobile ul.ocultar__menu-mobile {
+  display: none;
+  position: absolute;
+}
+.menu__mobile ul.aparecer__menu-mobile {
+  position: absolute;
+  right: 0;
+  background: url("../images/backgrounds/bg_craft05.jpg") repeat;
+}
+.menu__mobile ul.aparecer__menu-mobile li {
+  list-style: none;
+}
+
+footer {
+  background: url("../images/backgrounds/bg_craft03.jpg") repeat;
+  box-shadow: 0px -2px 5px 2px rgba(0, 0, 0, 0.2);
+  z-index: 200;
+  position: relative;
+}
+footer a {
+  color: #265764 !important;
+  text-decoration: underline !important;
+}
+footer h6 {
+  font-size: 2rem;
+}
+
+@media (max-width: 767.98px) {
+  ::-webkit-scrollbar, ::-webkit-scrollbar-track {
+    display: none;
+  }
+
+  header .logo__desktop, header .menu__desktop {
+    display: none;
+  }
+  header .logo__mobile {
+    display: inline-block;
+    width: 64px;
+  }
+  header .menu__mobile {
+    display: block;
+  }
+
+  main .textos_destacados_izq, main .textos_destacados_der {
+    text-align: center;
+  }
+  main .img-provicional-desktop {
+    display: none;
+  }
+  main .img-provicional-mobile {
+    display: block;
+  }
+
+  #contacto {
+    padding-bottom: 70px !important;
+  }
+  #contacto .nav li:last-child {
+    position: fixed;
+    bottom: 15px;
+    z-index: 300;
+  }
+}
+
+/*# sourceMappingURL=estilos_calvos.css.map */

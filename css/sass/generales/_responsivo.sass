@@ -1,0 +1,28 @@
+@media (max-width: $bp-pc)
+@media (max-width: $bp-tabletH)
+@media (max-width: $bp-tablet)
+    ::-webkit-scrollbar, ::-webkit-scrollbar-track
+        display: none
+    header
+        .logo__desktop, .menu__desktop
+            display: none
+        .logo__mobile
+            display: inline-block
+            width: 64px
+        .menu__mobile
+            display: block
+    main
+        .textos_destacados_izq, .textos_destacados_der
+            text-align: center
+        .img-provicional-desktop
+            display: none
+        .img-provicional-mobile
+            display: block
+    #contacto
+        padding-bottom: 70px !important
+        .nav
+            li:last-child
+                position: fixed
+                bottom: 15px
+                z-index: $zi-3
+@media (max-width: $bp-phone)

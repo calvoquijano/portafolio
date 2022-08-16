@@ -1,0 +1,43 @@
+/*Titulos*/
+@font-face {
+    font-family: 'titulosBold';
+    src: url(Arvo-Bold.ttf);
+}
+@font-face {
+    font-family: 'titulosBoldItalica';
+    src: url(Arvo-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'titulosRegular';
+    src: url(Arvo-Regular.ttf);
+}
+@font-face {
+    font-family: 'titulosItalica';
+    src: url(Arvo-Italic.ttf);
+}
+
+/*Texto Regular*/
+@font-face {
+    font-family: 'textos';
+    src: url(ZillaSlab-Regular.ttf);
+}
+@font-face {
+    font-family: 'textosBold';
+    src: url(ZillaSlab-Bold.ttf);
+}
+@font-face {
+    font-family: 'textosLite';
+    src: url(ZillaSlab-Light.ttf);
+}
+@font-face {
+    font-family: 'textosItalica';
+    src: url(ZillaSlab-Italic.ttf);
+}
+@font-face {
+    font-family: 'textosBoldItalica';
+    src: url(ZillaSlab-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'textosLiteItalica';
+    src: url(ZillaSlab-LightItalic.ttf);
+}

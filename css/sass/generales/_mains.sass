@@ -1,0 +1,76 @@
+main
+    .progress
+        margin-bottom: 20px
+        height: 30px
+        background: $craftVerde
+        box-shadow: 1px 5px 3px -2px rgb(0 0 0 / 20%)
+        .progress-bar
+            padding-top: 10px
+            padding-bottom: 10px
+            background: $azulOscuro
+            font-size: $t
+            box-shadow: 1px 5px 3px -2px rgb(0 0 0 / 20%)
+    .textos_destacados_izq
+        text-align: right
+        h6
+            font-size: $p
+    .textos_destacados_der
+        text-align: left
+    .home__tarjetas
+        overflow-x: scroll
+        overflow-y: hidden
+        box-shadow: inset 4px 0px 3px -2px rgb(0 0 0 / 20%), inset -4px 0px 3px -2px rgb(0 0 0 / 20%)
+        .card
+            min-width: 280px
+            background: $craft2
+            border: none
+            box-shadow: 1px 5px 3px -2px rgb(0 0 0 / 20%)
+            div
+                h4
+                    margin-bottom: 0
+                .card__header-images
+                    img:last-child
+                        margin-left: -25px
+        a
+            background: $craft1
+            color: $azulOscuro
+            font-family: $negrita
+            border-radius: 0 0 0.375rem 0.375rem
+            box-shadow: inset 1px 5px 3px -2px rgb(0 0 0 / 20%)
+            &::after
+                content: url("../images/icos/arrow-blue.svg")
+                margin-left: 10px
+    section.secciones-imagen-black, section.secciones-imagen-craft, section.sin-imagen
+        a
+            color: $amarillo
+            &::after
+                content: url("../images/icos/arrow-yellow.svg")
+                margin-left: 10px
+        .home__tarjetas
+            a
+                color: $azulOscuro
+                &::after
+                    content: url("../images/icos/arrow-blue.svg")
+                    margin-left: 10px
+        h2, h6
+            font-family: $general
+        h2
+            font-size: $h1
+        h6
+            font-size: $h2
+    section.secciones-imagen-black
+        background: $craftNegro
+        box-shadow: 3px 5px 6px -1px rgb(0 0 0 / 20%)
+        color: $blanco
+    section.secciones-imagen-craft
+        background: $craft5
+        box-shadow: 3px 5px 6px -1px rgb(0 0 0 / 20%)
+    .cinta
+        background: $cinta
+        padding: 15px
+        z-index: $zi-1
+        box-shadow: 1px 5px 3px -2px rgb(0 0 0 / 20%)
+    .img-provicional-desktop
+        display: block
+    .img-provicional-mobile
+        display: none

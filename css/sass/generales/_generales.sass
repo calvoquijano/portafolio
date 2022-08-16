@@ -1,0 +1,80 @@
+//generales
+*
+    font-family: $general
+html
+    font-size: $reglaT
+body
+    background: $craftGEstatico
+    font-size: $t
+b, h1, h2, h3, h4, h5, h6, button
+    font-family: $negrita
+h1
+    font-size: $h1
+h2
+    font-size: $h2
+h3
+    font-size: $h3
+h4
+    font-size: $h4
+h5
+    font-size: $h5
+h6
+    font-size: $h6
+.menos-margin
+    margin-bottom: -15px
+.mas-margin
+    margin-top: -15px
+//Scrollbar
+::-webkit-scrollbar
+    width: 10px
+    height: 10px
+    border-radius: 15px
+::-webkit-scrollbar-track
+    background: none
+    border-radius: 15px
+::-webkit-scrollbar-thumb
+    background: $craft4
+    border-radius: 15px
+::-webkit-scrollbar-thumb:hover
+    background: $craft3
+//Links
+a
+    color: $negro
+    text-decoration: none !important
+//Botones
+@mixin botonesCalvos
+    border-radius: 50px
+    padding: 10px 20px
+    cursor: default !important
+    font-size: $t
+.botones__calvos-amarillos
+    @include botonesCalvos
+    background-color: $amarillo
+    border: 2px solid $blanco
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+    &:hover
+        background-color: $amarillo
+        border: 2px solid $blanco
+        box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2)
+.botones__calvos-linea-amarilla
+    @include botonesCalvos
+    color: $amarillo
+    background: $craftG
+    border: 2px solid $amarillo
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+    &:hover
+        color: $amarillo
+        background: $craftG
+        border: 2px solid $amarillo
+        box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2)
+.botones__calvos-linea-zul
+    @include botonesCalvos
+    color: $azulOscuro
+    background: $craft2
+    border: 2px solid $azulOscuro
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+    &:hover
+        color: $azulOscuro
+        background: $craft2
+        border: 2px solid $azulOscuro
+        box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2)

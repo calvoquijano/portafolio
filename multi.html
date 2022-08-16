@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calvo Quijano</title>
+    <link rel="stylesheet" href="css/estilos_calvos.css"/>
+    <link rel="icon" type="image/x-icon" href="images/logotipo.ico">
+</head>
+<body>
+    <!--Header-->
+    <header class="container-fluid sticky-top">
+        <nav class="row align-items-center p-2">
+            <h1 class="col-2 col-md-3 logotipo">
+                <a href="index.html" title="Calvo Quijano">
+                    <img class="logo__desktop" src="images/logotipo_calvo_quijano.svg" alt="Calvo Quijano">
+                    <img class="logo__mobile" src="images/logo_calvo_quijano.svg" alt="Calvo Quijano">
+                </a>
+            </h1>
+            <div class="col-2 col-md-6 order-1 order-md-0">
+
+                <div class="nav text-center menu__mobile">
+                    <a href="javascript:void(0);" onclick="menuSuperior()"><img src="images/icos/charm_menu-hamburger.svg" alt="Menú"></a>
+                    <ul id="menuOculto" class="ocultar__menu-mobile">
+                        <li class="nav-item"><a class="nav-link" href="index.html" onclick="menuSuperior()">Home</a></li>
+                        <li class="nav-item" onclick="menuSuperior()"><a class="nav-link" href="index.html#trabajo">Mi Trabajo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto" onclick="menuSuperior()">Contáctame</a></li>
+                    </ul>
+                </div>
+
+                <ul class="nav justify-content-center menu__desktop">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#trabajo">Mi Trabajo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contáctame</a></li>
+                </ul>
+            </div>
+            <ul class="col-8 col-md-3 nav justify-content-end order-0 order-md-1">
+                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/andrés-quijano-aguirre-7682854a/" target="_blank"><img src="images/icos/linkedin.svg" alt="LinkedIn Calvo Quijano"></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.behance.net/calvoquijano" target="_blank"><img src="images/icos/behance.svg" alt="Behance Calvo Quijano"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Fin Header-->
+    <!--Contenido-->
+    <div class="cinta_roja text-center p-3"><h2>Diseñador UX/UI, Diseñador Web Senior y Animador 2D</h2></div>
+    <main class="container d-flex flex-column">
+        <!--Sección 01-->
+        <section class="row align-items-center p-3 sin-imagen">
+            <article class="d-flex flex-column p-3 order-1 order-md-0 textos_destacados_der">
+                <h2>T-Resuelve Multiasistencias</h2>
+                <img class="w-75 align-self-center" src="images/trabajos/uxui/multi/desktop.jpg" alt="Multiasistencias">
+                <img class="w-75 align-self-center" src="images/trabajos/uxui/multi/multi.jpg" alt="Multiasistencias">
+            </article>
+        </section>
+        <!--Fin Sección 01-->
+        <div class="w-75 cinta align-self-center mas-margin menos-margin"></div>
+        <!--Sección Otros trabajos-->
+        <section id="trabajo" class="row p-4 align-items-center secciones-imagen-craft">
+            <article class="col-12 p-3 text-center">
+                <h6>Mi trabajo.</h6>
+                <ul class="d-flex p-2 home__tarjetas justify-content-lg-center">
+                    <li class="card m-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="p-2"><img src="images/icos/codicon_terminal-tmux.svg" alt=""></span>
+                            <h4>UX/UI</h4>
+                            <div class="d-flex justify-content-end card__header-images">
+                                <img src="images/cards/ux_01.png" alt="">
+                                <img src="images/cards/ux_02.png" alt="">
+                            </div>
+                        </div>
+                        <a href="uxui.html" class="text-center p-2">Ver proyectos </a>
+                    </li>
+                    <li class="card m-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="p-2"><img src="images/icos/eva_browser-fill.svg" alt=""></span>
+                            <h4>Web</h4>
+                            <div class="d-flex justify-content-end card__header-images">
+                                <img src="images/cards/web_01.png" alt="">
+                                <img src="images/cards/web_02.png" alt="">
+                            </div>
+                        </div>
+                        <a href="web.html" class="text-center p-2">Ver proyectos </a>
+                    </li>
+                    <li class="card m-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="p-2"><img src="images/icos/mdi_animation.svg" alt=""></span>
+                            <h4>Animación</h4>
+                            <div class="d-flex justify-content-end card__header-images">
+                                <img src="images/cards/ani_01.png" alt="">
+                                <img src="images/cards/ani_02.png" alt="">
+                            </div>
+                        </div>
+                        <a href="animacion.html" class="text-center p-2">Ver proyectos </a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <!--Fin Sección Otros trabajos-->
+    </main>
+    <!--Fin Contenido-->
+    <!--Footer-->
+    <footer id="contacto" class="container-fluid d-flex flex-column p-2">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link" href=""><span><img src="images/icos/wa.svg" alt=""></span> (+57)300 546 5840</a></li>
+            <li class="nav-item"><a class="nav-link" href=""><span><img src="images/icos/mail.svg" alt=""></span> calvo@calvoquijano.com</a></li>
+            <li class="nav-item"><button class="nav-link btn btn-primary botones__calvos-linea-zul" onclick="window.open('https://calvoquijano.com/descargable/CV-Andres-Quijano-2022.pdf','_blank');"><span><img src="images/icos/tabler_file-download.svg" alt=""></span> Descargar CV</button></li>
+        </ul>
+        <h6 class="text-center">Andrés “el Calvo” Quijano</h6>
+    </footer>
+    <script type="text/javascript" src="js/funciones.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
