@@ -1,0 +1,9 @@
+.miperfil{
+    /*opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;*/
+}
+.aparecer{
+    opacity: 1;
+    transform: scale(1);
+}
