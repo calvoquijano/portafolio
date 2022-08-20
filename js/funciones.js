@@ -22,10 +22,32 @@ function menuSuperior() {
 
 //Parallax
 window.addEventListener('scroll', function(e){
-  let imagenPerfil = document.querySelector('.miperfil');
+  let imagenPerfil = document.querySelector('.miperfil-mobile');
   let posicionImagen = window.pageYOffset;
-  let pantallaPosicion = posicionImagen * 0.5;
-  // imagenPerfil.style.background = '#000'
-  // console.log(imagenPerfil.style)
+  let pantallaPosicion = posicionImagen * -0.3;
+  imagenPerfil.style.transform = 'translate3d(0px,'+pantallaPosicion+'px, 0px)';
+});
+window.addEventListener('scroll', function(f){
+  let imagenPerfil = document.querySelector('.perfil01');
+  let posicionImagen = window.pageYOffset;
+  let pantallaPosicion = posicionImagen * -0.09;
+  imagenPerfil.style.transform = 'translate3d(0px,'+pantallaPosicion+'px, 0px)';
+});
+window.addEventListener('scroll', function(f){
+  let imagenPerfil = document.querySelector('.perfil03');
+  let posicionImagen = window.pageYOffset;
+  let pantallaPosicion = posicionImagen * -0.07;
+  imagenPerfil.style.transform = 'translate3d(0px,'+pantallaPosicion+'px, 0px)';
+});
+window.addEventListener('scroll', function(f){
+  let imagenPerfil = document.querySelector('.perfil02');
+  let posicionImagen = window.pageYOffset;
+  let pantallaPosicion = posicionImagen * 0.03;
+  imagenPerfil.style.transform = 'translate3d(0px,'+pantallaPosicion+'px, 0px)';
+});
+window.addEventListener('scroll', function(f){
+  let imagenPerfil = document.querySelector('.trabajo');
+  let posicionImagen = window.pageYOffset;
+  let pantallaPosicion = posicionImagen * -0.08;
   imagenPerfil.style.transform = 'translate3d('+pantallaPosicion+'px, 0px, 0px)';
 });
