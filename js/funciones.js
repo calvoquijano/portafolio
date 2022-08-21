@@ -44,7 +44,7 @@ window.addEventListener('scroll', function(e){
 let offsetStart = 0;
 let offsetEnd = 0;
 window.addEventListener('scroll', function(f){
-  let imagenAnimacionSprite = document.querySelector('.spriteAnimacion');
+  let imagenAnimacionSprite = document.querySelector('.sprite-animacion');
   let posicionImagen = window.pageYOffset;
   let pantallaPosicion = posicionImagen * 100;
   imagenAnimacionSprite.style.backgroundPositionX = pantallaPosicion+'px'; 

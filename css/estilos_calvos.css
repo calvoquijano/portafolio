@@ -295,6 +295,12 @@ footer h6 {
   font-size: 2rem;
 }
 
+.sprite-animacion {
+  background-size: auto 100%;
+  width: 400px;
+  height: 400px;
+}
+
 @media (max-width: 767.98px) {
   ::-webkit-scrollbar, ::-webkit-scrollbar-track {
     display: none;
