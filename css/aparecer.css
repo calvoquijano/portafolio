@@ -1,9 +1,46 @@
-.miperfil{
+div.columpio {
+    /* background-image: url("../images/columpio.png"); */
+	background-size: auto 100%;
+	width: 400px;
+	height: 400px;
+    /* animation: interpol 1s steps(10) infinite; */
+	/* animation-name: interpol;
+    animation-duration: 1s;
+	animation-timing-function: steps(10);
+	animation-iteration-count: infinite; */
+}
+
+/* @keyframes interpol{
+    0% {
+        background-position: 0px 0;
+    }
+    100% {
+        background-position: -3600px 0;
+    }
+} */
+
+
+/* .miperfil{
     /*opacity: 0;
     transform: scale(0.1);
-    transition: all 1s ease-in-out;*/
+    transition: all 1s ease-in-out;
 }
 .aparecer{
     opacity: 1;
     transform: scale(1);
+} */
+/* .vuelo {
+	position: absolute;
+	margin-left: 0%;
+	animation-name: vuelo;
+    animation-duration: 4s;
+	animation-timing-function:linear;
+	animation-iteration-count: infinite;
 }
+
+
+@keyframes vuelo{
+    100% {
+		margin-left: 100%;
+	}
+} */
