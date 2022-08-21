@@ -160,13 +160,13 @@ main .perfil01, main .perfil02, main .perfil03 {
   position: absolute;
 }
 main .perfil01 {
-  z-index: 300;
+  z-index: 400;
 }
 main .perfil02 {
-  z-index: 200;
+  z-index: 300;
 }
 main .perfil03 {
-  z-index: 100;
+  z-index: 200;
 }
 main .home__tarjetas {
   overflow-x: scroll;
