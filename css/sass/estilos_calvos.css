@@ -32,12 +32,6 @@ h2 {
 h3 {
   font-size: 4vh;
 }
-h3.h3_craft {
-  color: #ccaa7c;
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
-  font-family: "textos", monospace, sans-serif;
-  font-size: 5vh;
-}
 
 h4 {
   font-size: 3vh;
@@ -311,7 +305,6 @@ footer h6 {
   ::-webkit-scrollbar, ::-webkit-scrollbar-track {
     display: none;
   }
-
   header .logo__desktop, header .menu__desktop {
     display: none;
   }
@@ -322,7 +315,6 @@ footer h6 {
   header .menu__mobile {
     display: block;
   }
-
   main .textos_destacados_izq, main .textos_destacados_der {
     text-align: center;
   }
@@ -342,7 +334,6 @@ footer h6 {
     display: inline-block;
     position: relative;
   }
-
   #contacto {
     padding-bottom: 70px !important;
   }
@@ -351,6 +342,4 @@ footer h6 {
     bottom: 15px;
     z-index: 800;
   }
-}
-
-/*# sourceMappingURL=estilos_calvos.css.map */
+}/*# sourceMappingURL=estilos_calvos.css.map */
