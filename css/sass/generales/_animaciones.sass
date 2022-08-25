@@ -1,4 +1,14 @@
 .sprite-animacion
+    width: 222px
+    height: 222px
+    background-image: url("../images/headers/sprites/ux.png")
     background-size: auto 100%
-    width: 400px
-    height: 400px
+    animation-name: interpol
+    animation-duration: 2s
+    animation-timing-function: steps(36)
+    animation-iteration-count: 3
+@keyframes interpol
+  0%
+    background-position: 0px 0
+  100%
+    background-position: -8000px 0

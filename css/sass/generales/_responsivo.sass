@@ -3,6 +3,8 @@
 @media (max-width: $bp-tablet)
     ::-webkit-scrollbar, ::-webkit-scrollbar-track
         display: none
+    body
+        background: $craftGEstatico
     header
         .logo__desktop, .menu__desktop
             display: none
@@ -18,13 +20,17 @@
             display: none
         .img-provicional-mobile
             display: block
-        .imgperfil
+        .imgperfil, .imgtrabajo
             height: auto
-        .perfil01, .perfil02, .perfil03
+        .perfil01, .perfil02, .perfil03, .trabajo01, .trabajo02, .trabajo03
             display: none
-        .miperfil-mobile
+        .miperfil-mobile, .trabajo-mobile
             display: inline-block
             position: relative
+        section.secciones-imagen-craft
+            background: $craft5
+        section.secciones-imagen-black
+            background: $craftNegro
     #contacto
         padding-bottom: 70px !important
         .nav

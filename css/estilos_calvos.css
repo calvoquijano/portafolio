@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: url("../images/backgrounds/bg_craft02.jpg") repeat fixed;
+  background: url("../images/backgrounds/marca_caja06.png") fixed no-repeat left 10vh, url("../images/backgrounds/marca_caja01.png") fixed no-repeat right bottom, url("../images/backgrounds/bg_craft02.jpg") repeat fixed;
   font-size: 1.5rem;
   overflow-x: hidden;
 }
@@ -155,23 +155,26 @@ main .textos_destacados_izq h6 {
 main .textos_destacados_der {
   text-align: left;
 }
-main .imgperfil {
+main .imgperfil, main .imgtrabajo {
   position: relative;
+  height: 75vh;
+}
+main .imgtrabajo {
   height: 100vh;
 }
-main .miperfil-mobile {
+main .miperfil-mobile, main .trabajo-mobile {
   display: none;
 }
-main .perfil01, main .perfil02, main .perfil03 {
+main .perfil01, main .perfil02, main .perfil03, main .trabajo01, main .trabajo02, main .trabajo03 {
   position: absolute;
 }
-main .perfil01 {
+main .perfil01, main .trabajo01 {
   z-index: 400;
 }
-main .perfil02 {
+main .perfil02, main .trabajo02 {
   z-index: 300;
 }
-main .perfil03 {
+main .perfil03, main .trabajo03 {
   z-index: 200;
 }
 main .home__tarjetas {
@@ -223,15 +226,15 @@ main section.secciones-imagen-black h2, main section.secciones-imagen-craft h2, 
   font-size: 6vh;
 }
 main section.secciones-imagen-black h6, main section.secciones-imagen-craft h6, main section.sin-imagen h6 {
-  font-size: 5vh;
+  font-size: 3vh;
 }
 main section.secciones-imagen-black {
-  background: url("../images/backgrounds/bg_negro.jpg") repeat;
+  background: url("../images/backgrounds/marca_caja05.png") no-repeat right bottom, url("../images/backgrounds/bg_negro.jpg") repeat;
   box-shadow: 3px 5px 6px -1px rgba(0, 0, 0, 0.2);
   color: #fbfbfb;
 }
 main section.secciones-imagen-craft {
-  background: url("../images/backgrounds/bg_craft06.jpg") repeat;
+  background: url("../images/backgrounds/marca_caja02.png") no-repeat right bottom, url("../images/backgrounds/bg_craft06.jpg") repeat;
   box-shadow: 3px 5px 6px -1px rgba(0, 0, 0, 0.2);
 }
 main .cinta {
@@ -302,14 +305,31 @@ footer h6 {
 }
 
 .sprite-animacion {
+  width: 222px;
+  height: 222px;
+  background-image: url("../images/headers/sprites/ux.png");
   background-size: auto 100%;
-  width: 400px;
-  height: 400px;
+  animation-name: interpol;
+  animation-duration: 2s;
+  animation-timing-function: steps(36);
+  animation-iteration-count: 3;
 }
 
+@keyframes interpol {
+  0% {
+    background-position: 0px 0;
+  }
+  100% {
+    background-position: -8000px 0;
+  }
+}
 @media (max-width: 767.98px) {
   ::-webkit-scrollbar, ::-webkit-scrollbar-track {
     display: none;
+  }
+
+  body {
+    background: url("../images/backgrounds/bg_craft02.jpg") repeat fixed;
   }
 
   header .logo__desktop, header .menu__desktop {
@@ -332,15 +352,21 @@ footer h6 {
   main .img-provicional-mobile {
     display: block;
   }
-  main .imgperfil {
+  main .imgperfil, main .imgtrabajo {
     height: auto;
   }
-  main .perfil01, main .perfil02, main .perfil03 {
+  main .perfil01, main .perfil02, main .perfil03, main .trabajo01, main .trabajo02, main .trabajo03 {
     display: none;
   }
-  main .miperfil-mobile {
+  main .miperfil-mobile, main .trabajo-mobile {
     display: inline-block;
     position: relative;
+  }
+  main section.secciones-imagen-craft {
+    background: url("../images/backgrounds/bg_craft06.jpg") repeat;
+  }
+  main section.secciones-imagen-black {
+    background: url("../images/backgrounds/bg_negro.jpg") repeat;
   }
 
   #contacto {

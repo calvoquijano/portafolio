@@ -16,18 +16,20 @@ main
             font-size: $p
     .textos_destacados_der
         text-align: left
-    .imgperfil
+    .imgperfil, .imgtrabajo
         position: relative
+        height: 75vh
+    .imgtrabajo
         height: 100vh
-    .miperfil-mobile
+    .miperfil-mobile, .trabajo-mobile
         display: none
-    .perfil01, .perfil02, .perfil03
+    .perfil01, .perfil02, .perfil03, .trabajo01, .trabajo02, .trabajo03
         position: absolute
-    .perfil01
+    .perfil01, .trabajo01
         z-index: $zi-4
-    .perfil02
+    .perfil02, .trabajo02
         z-index: $zi-3
-    .perfil03
+    .perfil03, .trabajo03
         z-index: $zi-2
     .home__tarjetas
         overflow-x: scroll
@@ -70,13 +72,13 @@ main
         h2
             font-size: $h1
         h6
-            font-size: $h2
+            font-size: $h4
     section.secciones-imagen-black
-        background: $craftNegro
+        background: url("../images/backgrounds/marca_caja05.png") no-repeat  right bottom, $craftNegro
         box-shadow: 3px 5px 6px -1px rgb(0 0 0 / 20%)
         color: $blanco
     section.secciones-imagen-craft
-        background: $craft5
+        background: url("../images/backgrounds/marca_caja02.png") no-repeat right bottom, $craft5
         box-shadow: 3px 5px 6px -1px rgb(0 0 0 / 20%)
     .cinta
         background: $cinta
