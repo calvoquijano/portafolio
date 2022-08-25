@@ -66,13 +66,13 @@ window.addEventListener('scroll', function(e){
   let imagenAni01 = document.querySelectorAll('.animacion-izq');
   let imagenAni02 = document.querySelectorAll('.animacion-der');
   let posicionImagen = window.pageYOffset;
-  let pantallaPosicionIzq = posicionImagen * -0.08;
-  let pantallaPosicionDer = posicionImagen * 0.08;
   if(imagenAni01 !== null || imagenAni02 !== null){
     for (let i=0; i < imagenAni01.length; i++) {
+      let pantallaPosicionIzq = posicionImagen * -0.02;
       imagenAni01[i].setAttribute('style','transform: translate3d('+pantallaPosicionIzq+'px, 0px, 0px)');
     }
     for (let i=0; i < i < imagenAni02.length; i++) {
+      let pantallaPosicionDer = posicionImagen * 0.02;
       imagenAni02[i].setAttribute('style','transform: translate3d('+pantallaPosicionDer+'px, 0px, 0px)');
     }
   }
