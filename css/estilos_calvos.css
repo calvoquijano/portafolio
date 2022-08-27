@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: url("../images/backgrounds/marca_caja06.png") fixed no-repeat left 10vh, url("../images/backgrounds/marca_caja01.png") fixed no-repeat right bottom, url("../images/backgrounds/bg_craft02.jpg") repeat fixed;
+  background: url("../images/backgrounds/marca_caja01.png") fixed no-repeat right bottom, url("../images/backgrounds/bg_craft02.jpg") repeat fixed;
   font-size: 1.5rem;
   overflow-x: hidden;
 }
