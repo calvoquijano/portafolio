@@ -39,10 +39,19 @@ let datosMenu = {
       </ul>
   </nav>
   `
-  const cintaRoja = document.querySelector('.cinta_roja h2');
-  cintaRoja.innerHTML = `Diseñador UX/UI, Diseñador y Desarrollador Web Senior y Animador 2D.`
+//Menú superior
+function menuSuperior() {
+    let menuSuperior = document.getElementById("menuOculto");
+    if (menuSuperior.className === "ocultar__menu-mobile") {
+      menuSuperior.className = "aparecer__menu-mobile";
+    } else {
+      menuSuperior.className = "ocultar__menu-mobile";
+    }
+  }
+const cintaRoja = document.querySelector('.cinta_roja h2');
+cintaRoja.innerHTML = `Diseñador UX/UI, Diseñador y Desarrollador Web Senior y Animador 2D.`
 
-export{cambiarMenu, datosMenu, cintaRoja};
+export{cambiarMenu, datosMenu, cintaRoja, menuSuperior};
 
 //Footer
 const infoFooter = document.querySelector('footer');
