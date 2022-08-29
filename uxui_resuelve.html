@@ -7,6 +7,11 @@
     <title>Calvo Quijano</title>
     <link rel="stylesheet" href="css/estilos_calvos.css"/>
     <link rel="icon" type="image/x-icon" href="images/logotipo.ico">
+    <script type="module" src="js/modulos.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <!--Header-->
@@ -16,14 +21,38 @@
     <div class="cinta_roja text-center p-3"><h2></h2></div>
     <!--Fin Header-->
     <!--Contenido-->
+    
     <main class="container d-flex flex-column">
+        <div class="w-75 cinta align-self-center mas-margin menos-margin"></div>
         <!--Sección 01-->
-        <section class="row align-items-center p-3 sin-imagen">
-            <article class="d-flex flex-column p-3 order-1 order-md-0 textos_destacados_der">
-                <h2>Propuesta Club Pond’s</h2>
-                <img class="w-75 align-self-center" src="images/trabajos/web/ponds/desktop.jpg" alt="Web ponds">
-                <img class="w-75 align-self-center" src="images/trabajos/web/ponds/ponds_desktop.png" alt="Web ponds">
-                <img class="w-75 align-self-center" src="images/trabajos/web/ponds/mobile.jpg" alt="Web ponds">
+        <section class="row align-items-center p-3 interna">
+            <article class="d-flex flex-column p-3 order-1 order-md-0">
+                <h2 class="text-center p-4">T-Resuelve</h2>
+                <div class="interna__etiqueta p-5 d-flex flex-row flex-wrap flex-md-nowrap align-items-center">
+                    <img src="images/headers/tresuelve.png" alt="Segundo rediseño App Mi Claro">
+                    <div class="p-5">
+                        <h4>Problema</h4>
+                        <p>Crear un minisitio para un nuevo producto de Claro para vender asistencias por demanda para cualquier necesidad que tenga el usuario. El reto estaba en hacerlo fácil y rápido de usar.</p>
+                        <h4>Solución</h4>
+                        <p>Hacer una one-page con un paso a paso para lograr que el usuario no se retire antes de tiempo.</p>
+                        <h4>El reto</h4>
+                        <p>Lograr la mayor cantidad de Leads y conversiones posibles.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="d-flex flex-column p-3 order-1 order-md-0">
+                <div class="w-75 cinta align-self-center mas-margin menos-margin"></div>
+                <img class="w-100 align-self-center" src="images/trabajos/uxui/multi/desktop.jpg" alt="Mi Claro">
+                <div class="w-75 cinta align-self-center mas-margin menos-margin"></div>
+                <img class="w-100 align-self-center" src="images/trabajos/uxui/multi/multi.jpg" alt="Mi Claro">
+                <div class="w-75 cinta align-self-center mas-margin menos-margin"></div>
+                <div class="interna__etiqueta p-5 d-flex flex-column flex-wrap flex-md-nowrap align-items-center">
+                    <h4>Otras acciones</h4>
+                    <div>
+                        <button class="btn btn-primary botones__calvos-linea-amarilla m-1" onclick="history.back()">Página anterior</button>
+                        <button class="btn btn-primary botones__calvos-linea-amarilla m-1" onclick="window.location.href='uxui_sis-calvo.html'">Siguiente trabajo</button>                        
+                    </div>
+                </div>
             </article>
         </section>
         <!--Fin Sección 01-->
@@ -74,11 +103,6 @@
     <!--Fin Contenido-->
     <!--Footer-->
     <footer id="contacto" class="container-fluid d-flex flex-column p-2">
-</footer>
-    <script type="module" src="js/modulos.js"></script>
-    <script src="js/funciones.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    </footer>
 </body>
 </html>

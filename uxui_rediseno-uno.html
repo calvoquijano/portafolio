@@ -21,43 +21,47 @@
     <div class="cinta_roja text-center p-3"><h2></h2></div>
     <!--Fin Header-->
     <!--Contenido-->
+    
     <main class="container d-flex flex-column">
-        <div class="w-75 cinta mas-margin menos-margin align-self-center"></div>
+        <div class="w-75 cinta align-self-center mas-margin menos-margin"></div>
         <!--Sección 01-->
-        <section class="row align-items-center p-3 secciones-imagen-craft">
-            <div class="col-12 col-md-6 p-3 order-0 order-md-1 imgperfil">
-                <img class="w-100 animacion-der miperfil-mobile" src="images/headers/home.png" alt="Mi Perfil">
-                
-                <img class="w-75 perfil01" src="images/headers/perfilcaja/perfil01.png" alt="Mi Perfil">
-                <img class="w-75 perfil02" src="images/headers/perfilcaja/perfil02.png" alt="Mi Perfil">
-                <img class="w-75 perfil03" src="images/headers/perfilcaja/perfil03.png" alt="Mi Perfil">
-                
-            </div>
-            <article class="col-12 col-md-6 p-3 order-1 order-md-0 textos_destacados_izq">
-                <h3 class="h3_craft">Hola, mi nombre es Andrés “El Calvo” Quijano.</h3>
-                <p>Soy Productor Digital, y me he desempeñado como, Diseñador UX/UI, Diseñador y Desarrollador Web Senior y Animador 2D, cuento con una experiencia de más de 12 años en el sector digital y he trabajado para marcas como Movistar, Avianca y Claro.</p>
-                <button class="btn btn-primary botones__calvos-amarillos" onclick="window.location.href='habilidades_herramientas.html'">Habilidades y herramientas</button>
-                <div class="w-100 m-2"></div>
-                <button class="btn btn-primary botones__calvos-linea-amarilla" onclick="window.location.href='experiencia.html'">Experiencia</button>
-                <button class="btn btn-primary m-2 botones__calvos-linea-amarilla" onclick="window.open('https://calvoquijano.com/descargable/CV-Andres-Quijano-2022.pdf','_blank');"><i></i> Descargar CV</button>
+        <section class="row align-items-center p-3 interna">
+            <article class="d-flex flex-column p-3 order-1 order-md-0">
+                <h2 class="text-center p-4">1er Rediseño Mi Claro</h2>
+                <div class="interna__etiqueta p-5 d-flex flex-row flex-wrap flex-md-nowrap align-items-center">
+                    <img src="images/headers/rediseno1.png" alt="Primer rediseño App Mi Claro">
+                    <div class="p-5">
+                        <h4>Problema</h4>
+                        <p>Poca empatía de la comunidad hacia la herramienta, las personas no sentían cercanía al ver que la app era diferente a todo lo que mostraba ser Claro como marca.</p>
+                        <h4>Solución</h4>
+                        <p>Crear un sistema de diseño y con base en él, rediseñar la aplicación.</p>
+                        <h4>El reto</h4>
+                        <p>Subir la calificación de App Mi Claro, haciendo que la gente se sienta un poco más identificada con la marca.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="d-flex flex-column p-3 order-1 order-md-0">
+                <div class="w-75 cinta align-self-center mas-margin menos-margin"></div>
+                <img class="w-100 align-self-center" src="images/trabajos/uxui/rediseno_2/desktop.jpg" alt="Mi Claro">
+                <div class="w-75 cinta align-self-center mas-margin menos-margin"></div>
+                <img class="w-100 align-self-center" src="images/trabajos/uxui/rediseno_2/phone.jpg" alt="Mi Claro">
+                <div class="w-75 cinta align-self-center mas-margin menos-margin"></div>
+                <div class="interna__etiqueta p-5 d-flex flex-column flex-wrap flex-md-nowrap align-items-center">
+                    <h4>Otras acciones</h4>
+                    <div>
+                        <button class="btn btn-primary botones__calvos-linea-amarilla m-1" onclick="history.back()">Página anterior</button>
+                        <button class="btn btn-primary botones__calvos-linea-amarilla m-1" onclick="window.location.href='uxui_rediseno-dos.html'">Siguiente trabajo</button>                        
+                    </div>
+                </div>
             </article>
         </section>
         <!--Fin Sección 01-->
-        <div class="w-75 cinta mas-margin align-self-center"></div>
-        <!--Sección 02-->
-        <section id="trabajo" class="row align-items-center">
-            <div class="col-12 col-md-6 p-3 imgtrabajo">
-                <img class="w-100 trabajo-mobile animacion-izq" src="images/headers/calvo_trabajo.png" alt="Mi Trabajo">
-
-                <img class="w-75 trabajo01" src="images/headers/perfilcaja/trabajo01.png" alt="Mi Perfil">
-                <img class="w-75 trabajo02" src="images/headers/perfilcaja/trabajo02.png" alt="Mi Perfil">
-                <img class="w-75 trabajo03" src="images/headers/perfilcaja/trabajo03.png" alt="Mi Perfil">
-
-            </div>
-            <article class="col-12 col-md-6 p-3 textos_destacados_der">
-                <h3 class="h3_craft">Este es mi trabajo.</h3>
-                <p>Esta es mi experiencia como productor digital:</p>
-                <ul class="d-flex p-2 home__tarjetas">
+        <div class="w-75 cinta align-self-center mas-margin menos-margin"></div>
+        <!--Sección Otros trabajos-->
+        <section id="trabajo" class="row p-4 align-items-center secciones-imagen-craft">
+            <article class="col-12 p-3 text-center">
+                <h6>Mi trabajo.</h6>
+                <ul class="d-flex p-2 home__tarjetas justify-content-lg-center">
                     <li class="card m-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <span class="p-2"><img src="images/icos/codicon_terminal-tmux.svg" alt=""></span>
@@ -94,10 +98,7 @@
                 </ul>
             </article>
         </section>
-        <!--Fin Sección 02-->
-
-        
-
+        <!--Fin Sección Otros trabajos-->
     </main>
     <!--Fin Contenido-->
     <!--Footer-->

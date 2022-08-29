@@ -249,6 +249,23 @@ main .img-provicional-desktop {
 main .img-provicional-mobile {
   display: none;
 }
+main section.interna {
+  margin-top: -5px;
+  padding-top: 0 !important;
+}
+main section.interna article h2 {
+  background: url("../images/backgrounds/bg_craft06.jpg") repeat;
+  margin-bottom: 0;
+}
+main section.interna article .interna__etiqueta {
+  background: url("../images/backgrounds/bg_craft01.jpg") repeat;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 20px;
+  box-shadow: 3px 5px 6px -1px rgba(0, 0, 0, 0.2);
+}
+main section.interna article .interna__etiqueta img {
+  max-width: 300px;
+}
 
 header {
   background: url("../images/backgrounds/bg_craft05.jpg") repeat;
