@@ -39,19 +39,10 @@ let datosMenu = {
       </ul>
   </nav>
   `
-//Menú superior
-function menuSuperior() {
-    let menuSuperior = document.getElementById("menuOculto");
-    if (menuSuperior.className === "ocultar__menu-mobile") {
-      menuSuperior.className = "aparecer__menu-mobile";
-    } else {
-      menuSuperior.className = "ocultar__menu-mobile";
-    }
-  }
 const cintaRoja = document.querySelector('.cinta_roja h2');
 cintaRoja.innerHTML = `Diseñador UX/UI, Diseñador y Desarrollador Web Senior y Animador 2D.`
 
-export{cambiarMenu, datosMenu, cintaRoja, menuSuperior};
+export{cambiarMenu, datosMenu, cintaRoja};
 
 //Footer
 const infoFooter = document.querySelector('footer');
@@ -62,5 +53,6 @@ infoFooter.innerHTML = `
     <li class="nav-item"><button class="nav-link btn btn-primary botones__calvos-linea-zul" onclick="window.open('https://calvoquijano.com/descargable/CV-Andres-Quijano-2022.pdf','_blank');"><span><img src="images/icos/tabler_file-download.svg" alt=""></span> Descargar CV</button></li>
 </ul>
 <h6 class="text-center">Andrés “el Calvo” Quijano</h6>`
+
 export{infoFooter};
 

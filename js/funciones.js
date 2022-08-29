@@ -1,4 +1,12 @@
-//Importaciones
+//Menú superior
+function menuSuperior() {
+  let menuSuperior = document.getElementById("menuOculto");
+  if (menuSuperior.className === "ocultar__menu-mobile") {
+    menuSuperior.className = "aparecer__menu-mobile";
+  } else {
+    menuSuperior.className = "ocultar__menu-mobile";
+  }
+}
 
 //Parallax
 window.addEventListener('scroll', function(b){
@@ -76,12 +84,6 @@ window.addEventListener('scroll', function(r){
 });
 
 
-//Menú
-import {cambiarMenu, datosMenu, cintaRoja, menuSuperior} from './secciones/headerfooter.js';
-
-
-//Footer
-import {infoFooter} from './secciones/headerfooter.js';
 
 
 //Scroll
