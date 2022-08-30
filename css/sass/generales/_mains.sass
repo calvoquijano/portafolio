@@ -58,6 +58,7 @@ main
     section.secciones-imagen-black, section.secciones-imagen-craft, section.sin-imagen
         a
             color: $amarillo
+            font-family: $negrita
             &::after
                 content: url("../images/icos/arrow-yellow.svg")
                 margin-left: 10px
@@ -80,6 +81,18 @@ main
     section.secciones-imagen-craft
         background: url("../images/backgrounds/marca_caja02.png") no-repeat right bottom, $craft5
         box-shadow: 3px 5px 6px -1px rgb(0 0 0 / 20%)
+    section.alto-pantalla
+        min-height: 100vh
+    section.sin-imagen
+        article
+            background: $craft5
+            box-shadow: 3px 5px 6px -1px rgb(0 0 0 / 20%)
+            .cinta
+                margin-top: -30px
+            a
+                color: $azulOscuro
+                &::after
+                    content: url("../images/icos/arrow-blue.svg")
     .cinta
         background: $cinta
         padding: 15px

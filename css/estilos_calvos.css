@@ -207,6 +207,7 @@ main .home__tarjetas a::after {
 }
 main section.secciones-imagen-black a, main section.secciones-imagen-craft a, main section.sin-imagen a {
   color: #F0A51B;
+  font-family: "textosBold", monospace, sans-serif;
 }
 main section.secciones-imagen-black a::after, main section.secciones-imagen-craft a::after, main section.sin-imagen a::after {
   content: url("../images/icos/arrow-yellow.svg");
@@ -236,6 +237,22 @@ main section.secciones-imagen-black {
 main section.secciones-imagen-craft {
   background: url("../images/backgrounds/marca_caja02.png") no-repeat right bottom, url("../images/backgrounds/bg_craft06.jpg") repeat;
   box-shadow: 3px 5px 6px -1px rgba(0, 0, 0, 0.2);
+}
+main section.alto-pantalla {
+  min-height: 100vh;
+}
+main section.sin-imagen article {
+  background: url("../images/backgrounds/bg_craft06.jpg") repeat;
+  box-shadow: 3px 5px 6px -1px rgba(0, 0, 0, 0.2);
+}
+main section.sin-imagen article .cinta {
+  margin-top: -30px;
+}
+main section.sin-imagen article a {
+  color: #265764;
+}
+main section.sin-imagen article a::after {
+  content: url("../images/icos/arrow-blue.svg");
 }
 main .cinta {
   background: url("../images/backgrounds/patron-cinta.jpg") repeat;
