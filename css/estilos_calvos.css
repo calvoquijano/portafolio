@@ -205,28 +205,28 @@ main .home__tarjetas a::after {
   content: url("../images/icos/arrow-blue.svg");
   margin-left: 10px;
 }
-main section.secciones-imagen-black a, main section.secciones-imagen-craft a, main section.sin-imagen a {
+main section.secciones-imagen-black a, main section.secciones-imagen-craft a, main section.sin-imagen a, main section.textos_habilidades a {
   color: #F0A51B;
   font-family: "textosBold", monospace, sans-serif;
 }
-main section.secciones-imagen-black a::after, main section.secciones-imagen-craft a::after, main section.sin-imagen a::after {
+main section.secciones-imagen-black a::after, main section.secciones-imagen-craft a::after, main section.sin-imagen a::after, main section.textos_habilidades a::after {
   content: url("../images/icos/arrow-yellow.svg");
   margin-left: 10px;
 }
-main section.secciones-imagen-black .home__tarjetas a, main section.secciones-imagen-craft .home__tarjetas a, main section.sin-imagen .home__tarjetas a {
+main section.secciones-imagen-black .home__tarjetas a, main section.secciones-imagen-craft .home__tarjetas a, main section.sin-imagen .home__tarjetas a, main section.textos_habilidades .home__tarjetas a {
   color: #265764;
 }
-main section.secciones-imagen-black .home__tarjetas a::after, main section.secciones-imagen-craft .home__tarjetas a::after, main section.sin-imagen .home__tarjetas a::after {
+main section.secciones-imagen-black .home__tarjetas a::after, main section.secciones-imagen-craft .home__tarjetas a::after, main section.sin-imagen .home__tarjetas a::after, main section.textos_habilidades .home__tarjetas a::after {
   content: url("../images/icos/arrow-blue.svg");
   margin-left: 10px;
 }
-main section.secciones-imagen-black h2, main section.secciones-imagen-black h6, main section.secciones-imagen-craft h2, main section.secciones-imagen-craft h6, main section.sin-imagen h2, main section.sin-imagen h6 {
+main section.secciones-imagen-black h2, main section.secciones-imagen-black h6, main section.secciones-imagen-craft h2, main section.secciones-imagen-craft h6, main section.sin-imagen h2, main section.sin-imagen h6, main section.textos_habilidades h2, main section.textos_habilidades h6 {
   font-family: "textos", monospace, sans-serif;
 }
-main section.secciones-imagen-black h2, main section.secciones-imagen-craft h2, main section.sin-imagen h2 {
+main section.secciones-imagen-black h2, main section.secciones-imagen-craft h2, main section.sin-imagen h2, main section.textos_habilidades h2 {
   font-size: 6vh;
 }
-main section.secciones-imagen-black h6, main section.secciones-imagen-craft h6, main section.sin-imagen h6 {
+main section.secciones-imagen-black h6, main section.secciones-imagen-craft h6, main section.sin-imagen h6, main section.textos_habilidades h6 {
   font-size: 3vh;
 }
 main section.secciones-imagen-black {
