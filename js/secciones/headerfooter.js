@@ -50,7 +50,7 @@ infoFooter.innerHTML = `
 <ul class="nav justify-content-center">
     <li class="nav-item"><a class="nav-link" href=""><span><img src="images/icos/wa.svg" alt=""></span> (+57)300 546 5840</a></li>
     <li class="nav-item"><a class="nav-link" href=""><span><img src="images/icos/mail.svg" alt=""></span> calvo@calvoquijano.com</a></li>
-    <li class="nav-item"><button class="nav-link btn btn-primary botones__calvos-linea-zul" onclick="window.open('https://calvoquijano.com/descargable/CV-Andres-Quijano-2022.pdf','_blank');"><span><img src="images/icos/tabler_file-download.svg" alt=""></span> Descargar CV</button></li>
+    <li class="nav-item"><button class="nav-link btn btn-warning botones__calvos-linea-zul" onclick="window.open('https://calvoquijano.com/descargable/CV-Andres-Quijano-2022.pdf','_blank');"><span><img src="images/icos/tabler_file-download.svg" alt=""></span> Descargar CV</button></li>
 </ul>
 <h6 class="text-center">Andrés “el Calvo” Quijano</h6>`
 

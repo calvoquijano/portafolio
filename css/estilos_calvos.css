@@ -89,12 +89,14 @@ a {
   padding: 10px 20px;
   cursor: default !important;
   font-size: 1.5rem;
-  background-color: #F0A51B;
+  background-color: #c68712;
   border: 2px solid #fbfbfb;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  color: #fbfbfb;
 }
 .botones__calvos-amarillos:hover {
-  background-color: #F0A51B;
+  color: #fbfbfb;
+  background-color: #c68712;
   border: 2px solid #fbfbfb;
   box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
 }
@@ -104,15 +106,15 @@ a {
   padding: 10px 20px;
   cursor: default !important;
   font-size: 1.5rem;
-  color: #F0A51B;
+  color: #c68712;
   background: url("../images/backgrounds/bg_craft02.jpg") repeat;
-  border: 2px solid #F0A51B;
+  border: 2px solid #c68712;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .botones__calvos-linea-amarilla:hover {
-  color: #F0A51B;
+  color: #c68712;
   background: url("../images/backgrounds/bg_craft02.jpg") repeat;
-  border: 2px solid #F0A51B;
+  border: 2px solid #c68712;
   box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -206,7 +208,7 @@ main .home__tarjetas a::after {
   margin-left: 10px;
 }
 main section.secciones-imagen-black a, main section.secciones-imagen-craft a, main section.sin-imagen a, main section.textos_habilidades a {
-  color: #F0A51B;
+  color: #c68712;
   font-family: "textosBold", monospace, sans-serif;
 }
 main section.secciones-imagen-black a::after, main section.secciones-imagen-craft a::after, main section.sin-imagen a::after, main section.textos_habilidades a::after {
