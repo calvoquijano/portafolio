@@ -4,7 +4,7 @@ let datosMenu = {
     logoMobileURL: "images/logo_calvo_quijano.svg",
     icoHamburguesa: "images/icos/charm_menu-hamburger.svg",
     indexURL: "index.html",
-    trabajoURL: "#trabajo",
+    trabajoURL: "index.html#trabajo",
     contactoURL: "#contacto",
     linkedin: '<a class="nav-link" href="https://www.linkedin.com/in/andr%C3%A9s-quijano-aguirre-7682854a/" target="_blank"><img src="images/icos/linkedin.svg" alt="LinkedIn Calvo Quijano"></a>',
     behance: '<a class="nav-link" href="https://www.behance.net/calvoquijano" target="_blank"><img src="images/icos/behance.svg" alt="Behance Calvo Quijano"></a>' 
@@ -40,7 +40,7 @@ let datosMenu = {
   </nav>
   `
 const cintaRoja = document.querySelector('.cinta_roja h2');
-cintaRoja.innerHTML = `Diseñador UX/UI Medio | Diseñador Web Senior | Front-End Junior | Animador 2D Medio`
+cintaRoja.innerHTML = `Diseñador UX/UI | Diseñador Web Senior | Front-End Junior`
 
 export{cambiarMenu, datosMenu, cintaRoja};
 
